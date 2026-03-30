@@ -8,25 +8,30 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 border-2 border-accent-gold flex items-center justify-center font-heading text-xl text-accent-gold">
-                RBG
+            <Link href="/" className="flex items-center gap-2 mb-4 transition-opacity hover:opacity-80">
+              <div className="relative w-48 h-20 flex items-center justify-start">
+                <img 
+                  src="/logo.png" 
+                  alt="Rana Balvir Group" 
+                  className="w-full h-full object-contain object-left"
+                />
               </div>
-              <span className="font-heading text-2xl tracking-wider text-text-primary">
-                RANABALVIR GROUP
-              </span>
             </Link>
             <p className="text-accent-gold font-mono text-sm mb-4">Transforming Waste into Wealth</p>
             <p className="text-text-muted text-sm max-w-sm mb-6">
               Sustainable recycling, scrap metal processing, industrial waste management, and materials trading.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full border border-border-dark flex items-center justify-center text-text-muted hover:text-accent-gold hover:border-accent-gold transition-colors">
+            <div className="flex gap-4 items-center">
+              <a href="#" className="w-10 h-10 shrink-0 rounded-full border border-border-dark flex items-center justify-center text-text-muted hover:text-accent-gold hover:border-accent-gold transition-colors">
                 <Globe className="w-5 h-5" />
               </a>
-              <a href="https://wa.me/919457141414" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full border border-border-dark flex items-center justify-center text-text-muted hover:text-accent-gold hover:border-accent-gold transition-colors">
+              <a href="https://wa.me/919457141414" target="_blank" rel="noreferrer" className="w-10 h-10 shrink-0 rounded-full border border-border-dark flex items-center justify-center text-text-muted hover:text-accent-gold hover:border-accent-gold transition-colors">
                 <Phone className="w-5 h-5" />
               </a>
+              <div className="flex flex-col ml-2 font-mono text-sm text-text-muted tracking-tight">
+                <a href="tel:+919457141414" className="hover:text-accent-gold transition-colors">+91-9457141414</a>
+                <a href="tel:+919760141414" className="hover:text-accent-gold transition-colors mt-1">+91-9760141414</a>
+              </div>
             </div>
           </div>
 

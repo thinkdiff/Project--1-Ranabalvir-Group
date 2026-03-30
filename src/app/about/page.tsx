@@ -8,11 +8,9 @@ import { Shield, Leaf, Lightbulb, CheckCircle2, Handshake, Users2, Award } from 
 
 export default function AboutPage() {
   const timeline = [
-    { year: "2008", title: "Inception", desc: "Founded in Muzaffarnagar with a vision to organize scrap metal trading." },
-    { year: "2012", title: "First Industrial Client", desc: "Started servicing large scale steel plants in Uttar Pradesh." },
-    { year: "2016", title: "Processing Facility", desc: "Opened a state-of-the-art 5-acre segregation and melting unit." },
-    { year: "2020", title: "Green Initiative", desc: "Expanded into comprehensive industrial waste management with ISO certifications." },
-    { year: "2024", title: "Pan-India Reach", desc: "Operations running across 5 states, processing over 50,000 tons annually." },
+    { year: "2024", title: "Foundation of Rana Balvir Group", desc: "Operations commenced with a vision to organize scrap metal trading and industrial waste management." },
+    { year: "2025", title: "Pan-India Reach", desc: "Rana Balvir Group expands operational capacity, processing over 50,000 tons annually and reaching multiple states." },
+    { year: "2026", title: "Pioneering the Future", desc: "Rana Balvir Group spearheads massive scale green initiatives, setting new benchmarks for the circular economy." },
   ];
 
   return (
@@ -131,10 +129,14 @@ export default function AboutPage() {
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <GlassCard className="text-center p-10 flex flex-col items-center group">
-              <div className="w-32 h-32 rounded-full border border-border-dark bg-background flex items-center justify-center mb-6 group-hover:border-accent-gold transition-colors shadow-[0_0_20px_rgba(0,0,0,0.5)]">
-                <span className="font-heading text-4xl text-accent-gold">PR</span>
+              <div className="relative w-36 h-36 mx-auto mb-8 mt-2 group-hover:scale-105 transition-transform duration-500">
+                <div className="absolute inset-0 rounded-full border-2 border-dashed border-accent-gold/30 group-hover:border-accent-gold/80 group-hover:rotate-180 transition-all duration-1000 ease-in-out" />
+                <div className="absolute inset-0 rounded-full border border-accent-gold/10 group-hover:animate-ping opacity-20" />
+                <div className="absolute inset-3 rounded-full border border-border-dark bg-gradient-to-br from-surface-1 to-background flex items-center justify-center shadow-[0_0_30px_rgba(201,168,76,0.1)] group-hover:shadow-[0_0_50px_rgba(201,168,76,0.25)] transition-all duration-500">
+                  <span className="font-heading text-5xl text-accent-gold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">PR</span>
+                </div>
               </div>
-              <h3 className="font-heading text-3xl mb-1">Mr. Pranav Rana</h3>
+              <h3 className="font-heading text-3xl mb-1 mt-2">Mr. Pranav Rana</h3>
               <p className="font-mono text-xs uppercase tracking-widest text-accent-blue mb-4">Managing Director & Proprietor</p>
               <p className="text-text-muted font-sans text-sm max-w-xs">
                 With deep expertise in heavy metal trading and industrial operations, Pranav leads the strategic expansion and compliance rigor of the Ranabalvir network.
@@ -142,10 +144,14 @@ export default function AboutPage() {
             </GlassCard>
 
             <GlassCard className="text-center p-10 flex flex-col items-center group" borderAccent="blue">
-              <div className="w-32 h-32 rounded-full border border-border-dark bg-background flex items-center justify-center mb-6 group-hover:border-accent-blue transition-colors shadow-[0_0_20px_rgba(0,0,0,0.5)]">
-                <span className="font-heading text-4xl text-accent-blue">ST</span>
+              <div className="relative w-36 h-36 mx-auto mb-8 mt-2 group-hover:scale-105 transition-transform duration-500">
+                <div className="absolute inset-0 rounded-full border-2 border-dashed border-accent-blue/30 group-hover:border-accent-blue/80 group-hover:rotate-180 transition-all duration-1000 ease-in-out" />
+                <div className="absolute inset-0 rounded-full border border-accent-blue/10 group-hover:animate-ping opacity-20" />
+                <div className="absolute inset-3 rounded-full border border-border-dark bg-gradient-to-br from-surface-1 to-background flex items-center justify-center shadow-[0_0_30px_rgba(76,168,201,0.1)] group-hover:shadow-[0_0_50px_rgba(76,168,201,0.25)] transition-all duration-500">
+                  <span className="font-heading text-5xl text-accent-blue drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">ST</span>
+                </div>
               </div>
-              <h3 className="font-heading text-3xl mb-1">Mr. Sunil Tomar</h3>
+              <h3 className="font-heading text-3xl mb-1 mt-2">Mr. Sunil Tomar</h3>
               <p className="font-mono text-xs uppercase tracking-widest text-accent-gold mb-4">Industry Expert</p>
               <p className="text-text-muted font-sans text-sm max-w-xs">
                 A veteran in scrap segregation and melting processes, Sunil ensures the highest quality output and operational efficiency across all processing facilities.

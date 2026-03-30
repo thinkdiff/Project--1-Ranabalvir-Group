@@ -184,7 +184,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 divide-x divide-border-dark/50">
             {[
-              { label: "Years Experience", value: 15, suffix: "+" },
+              { label: "Years Experience", value: 3, suffix: "+" },
               { label: "Clients Served", value: 500, suffix: "+" },
               { label: "Tons Processed", value: 50000, suffix: "+" },
               { label: "States Operations", value: 5, suffix: "" },
