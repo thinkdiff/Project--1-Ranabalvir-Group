@@ -33,7 +33,7 @@ export default function ContactPage() {
       <section className="py-12 bg-background">
         <div className="container mx-auto px-4 md:px-8 grid md:grid-cols-3 gap-6 max-w-5xl">
           <GlassCard borderAccent="gold" className="flex flex-col items-center text-center p-8">
-            <div className="w-12 h-12 rounded-full border border-border-dark flex items-center justify-center text-accent-gold mb-6">
+            <div className="w-12 h-12 mx-auto rounded-full border border-border-dark flex items-center justify-center text-accent-gold mb-6">
               <MapPin className="w-5 h-5" />
             </div>
             <h3 className="font-heading text-3xl mb-4">Head Office</h3>
@@ -45,7 +45,7 @@ export default function ContactPage() {
           </GlassCard>
           
           <GlassCard borderAccent="blue" className="flex flex-col items-center text-center p-8">
-            <div className="w-12 h-12 rounded-full border border-border-dark flex items-center justify-center text-accent-blue mb-6">
+            <div className="w-12 h-12 mx-auto rounded-full border border-border-dark flex items-center justify-center text-accent-blue mb-6">
               <Phone className="w-5 h-5" />
             </div>
             <h3 className="font-heading text-3xl mb-4">Direct Lines</h3>
@@ -57,7 +57,7 @@ export default function ContactPage() {
           </GlassCard>
 
           <GlassCard borderAccent="gold" className="flex flex-col items-center text-center p-8">
-            <div className="w-12 h-12 rounded-full border border-border-dark flex items-center justify-center text-accent-gold mb-6">
+            <div className="w-12 h-12 mx-auto rounded-full border border-border-dark flex items-center justify-center text-accent-gold mb-6">
               <Clock className="w-5 h-5" />
             </div>
             <h3 className="font-heading text-3xl mb-4">Working Hours</h3>
