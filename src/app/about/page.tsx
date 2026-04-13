@@ -127,7 +127,7 @@ export default function AboutPage() {
             <p className="font-mono text-accent-gold tracking-widest uppercase text-sm">Guiding the Vision</p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <GlassCard className="text-center p-10 flex flex-col items-center group">
               <div className="relative w-36 h-36 mx-auto mb-8 mt-2 group-hover:scale-105 transition-transform duration-500">
                 <div className="absolute inset-0 rounded-full border-2 border-dashed border-accent-gold/30 group-hover:border-accent-gold/80 group-hover:rotate-180 transition-all duration-1000 ease-in-out" />
@@ -155,6 +155,21 @@ export default function AboutPage() {
               <p className="font-mono text-xs uppercase tracking-widest text-accent-gold mb-4">Director</p>
               <p className="text-text-muted font-sans text-sm max-w-xs">
                 A veteran in scrap segregation and melting processes, Shivam ensures the highest quality output and operational efficiency across all processing facilities.
+              </p>
+            </GlassCard>
+
+            <GlassCard className="text-center p-10 flex flex-col items-center group">
+              <div className="relative w-36 h-36 mx-auto mb-8 mt-2 group-hover:scale-105 transition-transform duration-500">
+                <div className="absolute inset-0 rounded-full border-2 border-dashed border-accent-gold/30 group-hover:border-accent-gold/80 group-hover:rotate-180 transition-all duration-1000 ease-in-out" />
+                <div className="absolute inset-0 rounded-full border border-accent-gold/10 group-hover:animate-ping opacity-20" />
+                <div className="absolute inset-3 rounded-full border border-border-dark bg-gradient-to-br from-surface-1 to-background flex items-center justify-center shadow-[0_0_30px_rgba(201,168,76,0.1)] group-hover:shadow-[0_0_50px_rgba(201,168,76,0.25)] transition-all duration-500">
+                  <span className="font-heading text-5xl text-accent-gold drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">CA</span>
+                </div>
+              </div>
+              <h3 className="font-heading text-3xl mb-1 mt-2">Dr. Chetan Ahuja</h3>
+              <p className="font-mono text-xs uppercase tracking-widest text-accent-blue mb-4">CEO & Strategic Advisor</p>
+              <p className="text-text-muted font-sans text-sm max-w-xs">
+                Serving as a strategic advisor and managing growth, Dr. Ahuja drives operational excellence and expansive development across the organization.
               </p>
             </GlassCard>
           </div>

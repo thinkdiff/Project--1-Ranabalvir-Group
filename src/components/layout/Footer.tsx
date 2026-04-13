@@ -9,14 +9,17 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4 transition-opacity hover:opacity-80">
-              <div className="relative w-48 h-20 flex items-center justify-start">
-                <img 
-                  src="/logo.png" 
-                  alt="Rana Balvir Group" 
-                  className="w-full h-full object-contain object-left"
-                />
-              </div>
+            <Link href="/" className="flex items-center gap-3 mb-4 transition-opacity hover:opacity-80">
+              <Image 
+                src="/logo.png" 
+                alt="Ranabalvir Group Logo" 
+                width={48} 
+                height={48} 
+                className="object-contain rounded-md" 
+              />
+              <span className="font-heading text-2xl tracking-wider text-text-primary">
+                RANABALVIR GROUP
+              </span>
             </Link>
             <p className="text-accent-gold font-mono text-sm mb-4">Transforming Waste into Wealth</p>
             <p className="text-text-muted text-sm max-w-sm mb-6">

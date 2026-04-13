@@ -34,14 +34,17 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group transition-opacity hover:opacity-80">
-          <div className="relative w-40 h-16 sm:w-48 sm:h-20 flex items-center justify-center">
-            <img 
-              src="/logo.png" 
-              alt="Rana Balvir Group" 
-              className="w-full h-full object-contain object-left"
-            />
-          </div>
+        <Link href="/" className="flex items-center gap-3 group transition-opacity hover:opacity-80">
+          <Image 
+            src="/logo.png" 
+            alt="Ranabalvir Group Logo" 
+            width={48} 
+            height={48} 
+            className="object-contain rounded-md" 
+          />
+          <span className="font-heading text-2xl tracking-wider text-text-primary hidden sm:block">
+            RANABALVIR GROUP
+          </span>
         </Link>
 
         {/* Desktop Nav */}
