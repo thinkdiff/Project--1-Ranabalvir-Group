@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Globe, Phone } from "lucide-react";
 
 export function Footer() {
@@ -8,10 +9,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 border-2 border-accent-gold flex items-center justify-center font-heading text-xl text-accent-gold">
-                RBG
-              </div>
+            <Link href="/" className="flex items-center gap-3 mb-4">
+              <Image src="/logo.png" alt="Ranabalvir Group Logo" width={48} height={48} className="object-contain rounded-md" />
               <span className="font-heading text-2xl tracking-wider text-text-primary">
                 RANABALVIR GROUP
               </span>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const links = [
   { href: "/", label: "Home" },
@@ -12,6 +13,7 @@ const links = [
   { href: "/services", label: "Services" },
   { href: "/sustainability", label: "Sustainability" },
   { href: "/careers", label: "Careers" },
+  { href: "/projects", label: "Current Projects" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -32,10 +34,8 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 border-2 border-accent-gold flex items-center justify-center font-heading text-xl text-accent-gold group-hover:bg-accent-gold group-hover:text-background transition-colors duration-300">
-            RBG
-          </div>
+        <Link href="/" className="flex items-center gap-3 group">
+          <Image src="/logo.png" alt="Ranabalvir Group Logo" width={48} height={48} className="object-contain rounded-md" />
           <span className="font-heading text-2xl tracking-wider text-text-primary hidden sm:block">
             RANABALVIR GROUP
           </span>

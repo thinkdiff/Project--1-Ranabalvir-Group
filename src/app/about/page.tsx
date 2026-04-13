@@ -131,7 +131,7 @@ export default function AboutPage() {
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <GlassCard className="text-center p-10 flex flex-col items-center group">
-              <div className="w-32 h-32 rounded-full border border-border-dark bg-background flex items-center justify-center mb-6 group-hover:border-accent-gold transition-colors shadow-[0_0_20px_rgba(0,0,0,0.5)]">
+              <div className="w-32 h-32 mx-auto rounded-full border border-border-dark bg-background flex items-center justify-center mb-6 group-hover:border-accent-gold transition-colors shadow-[0_0_20px_rgba(0,0,0,0.5)]">
                 <span className="font-heading text-4xl text-accent-gold">PR</span>
               </div>
               <h3 className="font-heading text-3xl mb-1">Mr. Pranav Rana</h3>
@@ -142,13 +142,13 @@ export default function AboutPage() {
             </GlassCard>
 
             <GlassCard className="text-center p-10 flex flex-col items-center group" borderAccent="blue">
-              <div className="w-32 h-32 rounded-full border border-border-dark bg-background flex items-center justify-center mb-6 group-hover:border-accent-blue transition-colors shadow-[0_0_20px_rgba(0,0,0,0.5)]">
-                <span className="font-heading text-4xl text-accent-blue">ST</span>
+              <div className="w-32 h-32 mx-auto rounded-full border border-border-dark bg-background flex items-center justify-center mb-6 group-hover:border-accent-blue transition-colors shadow-[0_0_20px_rgba(0,0,0,0.5)]">
+                <span className="font-heading text-4xl text-accent-blue">SK</span>
               </div>
-              <h3 className="font-heading text-3xl mb-1">Mr. Sunil Tomar</h3>
-              <p className="font-mono text-xs uppercase tracking-widest text-accent-gold mb-4">Industry Expert</p>
+              <h3 className="font-heading text-3xl mb-1">Mr. Shivam Kathait</h3>
+              <p className="font-mono text-xs uppercase tracking-widest text-accent-gold mb-4">Director</p>
               <p className="text-text-muted font-sans text-sm max-w-xs">
-                A veteran in scrap segregation and melting processes, Sunil ensures the highest quality output and operational efficiency across all processing facilities.
+                A veteran in scrap segregation and melting processes, Shivam ensures the highest quality output and operational efficiency across all processing facilities.
               </p>
             </GlassCard>
           </div>
