@@ -16,38 +16,6 @@ export default function ProjectsPage() {
       description: "Comprehensive waste management and material supply for major infrastructure development projects under the Lucknow Development Authority.",
       tags: ["Infrastructure", "Waste Management", "Urban Development"],
     },
-    {
-      title: "Ordinance Factory",
-      location: "India",
-      type: "Defense Manufacturing",
-      value: "Undisclosed",
-      description: "Secure and compliant scrap metal processing and disposal services for strategic defense manufacturing facilities.",
-      tags: ["Defense", "Scrap Processing", "Secure Logistics"],
-    },
-    {
-      title: "Municipal Corporation of Delhi (MCD)",
-      location: "Delhi NCR",
-      type: "Civic Infrastructure",
-      value: "Ongoing",
-      description: "Partnering with MCD for large-scale urban waste segregation and sustainable processing initiatives across the capital region.",
-      tags: ["Municipal", "Waste Segregation", "Public Works"],
-    },
-    {
-      title: "Chapra Railway Division",
-      location: "Chapra, Bihar",
-      type: "Railway Infrastructure",
-      value: "Contractual",
-      description: "Processing and recycling of decommissioned railway materials and tracks, ensuring high recovery rates back into the supply chain.",
-      tags: ["Railways", "Metal Recovery", "Heavy Scrap"],
-    },
-    {
-      title: "Defense Research and Development Organization (DRDO)",
-      location: "National Facilities",
-      type: "R&D Installations",
-      value: "Strategic",
-      description: "Providing specialized, secure material handling and recycling solutions for national R&D operations.",
-      tags: ["R&D", "Specialized Handling", "Secure Recycling"],
-    }
   ];
 
   return (
